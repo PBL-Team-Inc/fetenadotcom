@@ -1,0 +1,193 @@
+[
+    {
+        "detail": {
+            "examname": "chemistry",
+            "examkey": "10YH6t65",
+            "weight": 30
+        },
+        "exam": [
+            {
+                "id": 1,
+                "question": "",
+                "options": {
+                    "A": "ds",
+                    "B": "sd"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 1,
+                "question": "",
+                "options": {
+                    "A": "ds",
+                    "B": "sd"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 1,
+                "question": "",
+                "options": {
+                    "A": "ds",
+                    "B": "sd"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            }
+        ]
+    },
+  
+    {
+        "detail": {
+            "examname": "Physics",
+            "examkey": "10ijHUY7",
+            "weight": 12
+        },
+        "exam": [
+            {
+                "id": 1,
+                "question": "sasda",
+                "options": {
+                    "A": "ds",
+                    "B": "sd"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            }
+        ]
+    },
+    {
+        "detail": {
+            "examname": "Biology",
+            "examkey": "67HJH8iih",
+            "weight": 20
+        },
+        "exam": [
+            {
+                "id": 1,
+                "question": "",
+                "options": {
+                    "A": "ds",
+                    "B": "sd"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            }
+        ]
+    },
+ 
+    {
+        "detail": {
+            "examname": "C++",
+            "examkey": "10jjd990I",
+            "weight": 0
+        },
+        "exam": [
+            {
+                "id": 1,
+                "question": "sasda",
+                "options": {
+                    "A": "ds",
+                    "B": "sd"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            }
+        ]
+    },
+    {
+        "detail": {
+            "examname": "Maths",
+            "examkey": "10MbvwS",
+            "weight": 50
+        },
+        "exam": [
+            {
+                "id": 1,
+                "question": "sasda",
+                "options": {
+                    "A": "ds",
+                    "B": "sd"
+                },
+                "answer": "A"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            },
+            {
+                "id": 2,
+                "question": "ssd",
+                "options": {
+                    "A": "sad",
+                    "B": "asd"
+                },
+                "answer": "B"
+            }
+        ]
+    }
+]
