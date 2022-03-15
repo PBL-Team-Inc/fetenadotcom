@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From</title>
+  <script src="qna.JS" defer></script>
+  </head>
+  <body>
+    <h1>Form submission</h1>
+
+    <a href="signupadmin.html">Sign up Admin
+    </a>
+<br>
+    <a href="signupuser.html">Sign up User
+    </a>
+    <br>
+<a href="dbRetrieval.html">DB Retrieval
+    </a>
+    <br>
+<a href="Dashboard.html">Dash Board</a>
+
+    <h2>Exam</h2>
+    <form action="/api/exam" method="POST">
+      <table>
+        <thead>
+
+
+        </thead>
+        </table>
+
+<table>
+  <tr>
+            <td>1</td>
+</tr>
+<tr>
+
+<!-- Question 1 -->
+            <td id="Questions td">
+              <textarea
+                placeholder="Question 1"
+                cols="40"
+                rows="10"
+                name="Question"
+              ></textarea>
+            </td>
+</tr>
+<tr>
+            <td id="options td">
+              <!-- <input type="radio" value="kkk" name="q1_opt" id="q1_opt_q1" />
+              <label for="q1_opt_q1">Option 1</label> <br /> -->
+               <input type="radio" class="Answer" name="q1option" value="a" id="option">
+             <label for="option"> 
+                <textarea
+                id="option"
+                placeholder="Option"
+                name=Option
+                cols="10"
+                rows="1"
+              ></textarea>
+             </label>
+           <!-- $('input[name=gender]:checked').val(); -->
+            </td>
+          </tr>
+          <tr>
+            <tr>
+              <td id="options td">
+                <!-- <input type="radio" value="kkk" name="q1_opt" id="q1_opt_q1" />
+                <label for="q1_opt_q1">Option 1</label> <br /> -->
+                 <input type="radio" class="Answer" value="b" name="q1option" id="option">
+               <label for="option"> 
+                  <textarea
+                  id="option"
+                  placeholder="Option"
+                  name=Option
+                  cols="10"
+                  rows="1"
+                ></textarea>
+               </label>
+             <!-- $('input[name=gender]:checked').val(); -->
+         <br>    <input type="submit">
+              </td>
+            </tr>
+          </form>
+</table>
+          
+<form action="/api/exam" method="POST">
+
+  <!-- Question 2 -->
+  <table>          
+            <tr>
+
+            <td id="Questions td">
+              <textarea
+                placeholder="Question 2"
+                cols="40"
+                rows="10"
+                name="Question"
+              ></textarea>
+            </td>
+</tr>
+          <tr>
+            <td id="options td">
+              <!-- <input type="radio" value="kkk" name="q1_opt" id="q1_opt_q1" />
+              <label for="q1_opt_q1">Option 1</label> <br /> -->
+               <input type="radio" class="Answer" value="a" name="q2option" id="option">
+             <label for="option"> 
+                <textarea
+                id="option"
+                placeholder="Option"
+                name=Option
+                cols="10"
+                rows="1"
+              ></textarea>
+             </label>
+           <!-- $('input[name=gender]:checked').val(); -->
+            </td>
+          </tr>
+    
+          <tr>
+            <td id="options td">
+              <!-- <input type="radio" value="kkk" name="q1_opt" id="q1_opt_q1" />
+              <label for="q1_opt_q1">Option 1</label> <br /> -->
+               <input type="radio" class="Answer" value="b" name="q2option" id="option">
+             <label for="option"> 
+                <textarea
+                id="option"
+                placeholder="Option"
+                name=Option
+                cols="10"
+                rows="1"
+              ></textarea>
+             </label>
+           <!-- $('input[name=gender]:checked').val(); -->
+            </td>
+          </tr>
+    
+          <tr>
+           
+            <td style="align-items: left">
+              <input type="submit" value="Submit"/>
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+    </form>
+
+
+
+    <form action="/submitexam/" method="POST">
+      <table>
+                  <tr>
+            <td>
+              <label for="examname">Exam Name</label
+              ><input
+                name="examname"
+                id="examname"
+                value="Exam Name"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="examkey">Exam Key</label>
+              <input 
+               name="examkey" id=examkey required />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="weight">Weight</label>
+              <input
+                type="number"
+                min="0"
+                id="weight"
+                name="weight"
+                value="weight"
+              />
+            </td>
+          </tr>
+      </table>
+       <button type="submit">Submit whole exam</button>
+
+    </form>
+
+
+  </body>
+</html>
